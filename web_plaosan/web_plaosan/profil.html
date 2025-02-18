@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - Kelurahan Plaosan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header (same as index.html) -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="berita.html">Berita</a></li>
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="layanan.html">Layanan</a></li>
+            <li><a href="data-kecamatan.html">Data Kecamatan</a></li>
+        </ul>
+    </nav>
+    <main class="container main-grid">
+        <div class="content">
+            <h1 class="page-title">Statistik Penduduk</h1>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="icon">🙏</span>
+                    <span>Agama</span>
+                </div>
+                <div class="stat-card">
+                    <span class="icon">💼</span>
+                    <span>Pekerjaan</span>
+                </div>
+                <div class="stat-card">
+                    <span class="icon">💰</span>
+                    <span>Kemiskinan</span>
+                </div>
+                <div class="stat-card">
+                    <span class="icon">🏛️</span>
+                    <span>Wilayah Administrasi</span>
+                </div>
+            </div>
+            <div class="population-stats">
+                <div class="population-icon">👥</div>
+                <h2>Populasi</h2>
+                <p class="population-number">2410</p>
+                <div class="gender-stats">
+                    <div class="gender-stat">
+                        <span class="icon">👤</span>
+                        <span>Laki-laki</span>
+                        <span class="number">1175</span>
+                    </div>
+                    <div class="gender-stat">
+                        <span class="icon">👤</span>
+                        <span>Perempuan</span>
+                        <span class="number">1235</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="section-title">Aparatur Kecamatan</h2>
+            <div class="officials-grid">
+                <!-- Repeat this structure for each official -->
+                <div class="official-card">
+                    <div class="official-image"></div>
+                    <h3>Jabatan</h3>
+                    <p>Nama Aparat</p>
+                </div>
+                <!-- Repeat 3 more times for a total of 4 officials -->
+            </div>
+
+            <h2 class="section-title">Berita Desa</h2>
+            <div class="news-grid">
+                <!-- Repeat this structure for each news item -->
+                <div class="news-card">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/webdev-FQAi4G1eJsCRwPImc1lEfo06b5bk2t.png" alt="Berita Desa">
+                    <h3>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing</h3>
+                    <div class="meta">
+                        <span>Administrator</span>
+                        <span>14 Januari 2025</span>
+                    </div>
+                    <p>0 Komentar</p>
+                </div>
+                <!-- Repeat 2 more times for a total of 3 news items -->
+            </div>
+            <button class="more-news" onclick="window.location.href='berita.html'">Berita Lainnya</button>
+        </div>
+
+        <!-- Sidebar (same as in dokumentasi-foto.html) -->
+        <aside class="sidebar">
+            <!-- Article Archive -->
+            <div class="card">
+                <div class="card-header">Arsip Artikel</div>
+                <div class="card-content">
+                    <!-- Repeat this for each article -->
+                    <div class="archive-item">
+                        <h3>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing</h3>
+                        <div class="meta">
+                            <span>Administrator</span>
+                            <span>14 Januari 2025</span>
+                        </div>
+                    </div>
+                    <!-- Repeat 5 more times -->
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="card">
+                <div class="card-header">Statistik Pengunjung</div>
+                <div class="card-content">
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span>Hari ini</span>
+                            <span>25</span>
+                        </div>
+                        <div class="stat-item">
+                            <span>Kemarin</span>
+                            <span>50</span>
+                        </div>
+                        <div class="stat-item">
+                            <span>Total</span>
+                            <span>1.234.567</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Agenda -->
+            <div class="card">
+                <div class="card-header">Agenda</div>
+                <div class="card-content">
+                    <h3>Pelatihan Fotografi dan Sosial Media</h3>
+                    <div class="event-details">
+                        <div class="detail-item">
+                            <span>Tanggal</span>
+                            <span>18 Januari 2025</span>
+                        </div>
+                        <div class="detail-item">
+                            <span>Tempat</span>
+                            <span>Balai Desa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer (same as index.html) -->
+    <footer>
+        <div class="sitemap">
+            <div class="sitemap-section">
+                <h5>Berita</h5>
+                <ul>
+                    <li><a href="berita.html">Berita</a></li>
+                    <li><a href="dokumentasi-foto.html">Dokumentasi Foto</a></li>
+                    <li><a href="dokumentasi-video.html">Dokumentasi Video</a></li>
+                </ul>
+            </div>
+            <div class="sitemap-section">
+                <h5>Profil</h5>
+                <ul>
+                    <li><a href="profil.html">Profil</a></li>
+                    <li><a href="visi-misi.html">Visi Misi</a></li>
+                    <li><a href="sejarah.html">Sejarah</a></li>
+                    <li><a href="aparat-kecamatan.html">Aparat Kecamatan</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
